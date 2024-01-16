@@ -1,6 +1,4 @@
-import React from "react";
-
-function Tempo(request, response) {
+function tempo(request, response) {
   const dynamicDate = new Date();
 
   response.json({
@@ -8,4 +6,4 @@ function Tempo(request, response) {
   });
 }
 
-export default Tempo;
+export default tempo;
